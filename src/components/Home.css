@@ -1,0 +1,17 @@
+.heading{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-decoration-color: black;
+    font-family: 'Josefin Slab', serif;
+
+}
+.img_div{
+    display: flex;
+    justify-content: center;
+}
+.img_div img{
+    width:200PX;
+    height:200px;
+    cursor:pointer;
+}
