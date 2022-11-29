@@ -1,0 +1,12 @@
+.myAbout{
+    background-image: url("../images/moon.webp");
+    
+  height: 760px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border-radius: 7px;
+  
+
+    
+}
