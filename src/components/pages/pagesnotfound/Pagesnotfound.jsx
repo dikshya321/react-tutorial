@@ -16,4 +16,4 @@ const Pagesnotfound = () => {
   )
 }
 
-export default Pagesnotfound
+export default Pagesnotfound;
