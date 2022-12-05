@@ -1,22 +1,35 @@
-import React from 'react'
-import {useState} from 'react';
 
-const Home = () => {//controlled component
-  const[Value,setValue]=useState("")
+import React from 'react';
+
+import Button from 'react-bootstrap/esm/Button';
+import dikshaa from "../../../images/dikshaa.jpg";
+
+const Home = () => {
   return (
     <>
-    <div className="myHome">
-      <input type="text"placeholder="enter your email" 
-      onChange={(e)=> setValue(e.target.value)}/>
-      <br />
-      <h1>Value:{Value}</h1>
+          <div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 style={{marginTop:"20%"}}>We started <span style={{color:"green"}}>our Business with</span></h1>
+      <h1 style={{color:"red"}}>PD ENGINEERING</h1>
+      <h2>We are a team of talented developers for making a websites</h2>
+      <Button variant="outline-primary">Get-Started</Button>{' '}
     </div>
+    <div class="col">
+    <img style={{width:"100%",height:"70%"}} src={dikshaa}/>
+    </div>
+  </div>
+</div>
+
     </>
-  );
-};
+  )
+}
 
+export default Home;
 
-// const Counter = ()=>{
+ 
+
+//const Counter = ()=>{
 //  const[count,setCount]=useState(0);
 //   return(
 //     <>
@@ -73,4 +86,3 @@ const Home = () => {//controlled component
 
 
 
-export default Home;

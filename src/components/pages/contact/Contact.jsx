@@ -3,9 +3,9 @@ import React from 'react'
 const Contact = () => {
   return (
    <>
-    <div>
-      <h1>olaaaaaaaa.</h1>
-      </div>
+    <div>Contact</div>
+      <h1>olaaaaaaaa. 9865423564</h1>
+     
    
    
    </>

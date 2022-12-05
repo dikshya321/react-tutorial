@@ -8,6 +8,7 @@ import Pagesnotfound from "./components/pages/pagesnotfound/Pagesnotfound";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 
+
 function App() {
   return (
     <>
@@ -16,11 +17,9 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact/>} />
-          <Route path="*" element={<Pagesnotfound/>} />
 
-
-
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Pagesnotfound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
