@@ -1,17 +1,14 @@
 import React from 'react';
-//import { Link, Outlet } from 'react-router-dom';
-
+import CommonPages from "../commonPage/CommonPages";
+import moon from "../../../images/moon.webp";
 
 const About = () => {
   return (
     <>
-    <div>
-      <h1>diksha Subedi hehehe about  ollaaaa.</h1>
-      </div>
-      {/* <Link to ="Contact">clickgaara</Link>
-
-      <Outlet/>
-     */}
+    <CommonPages title ="we wanted to do our STArtup" 
+    description="we trust or hardwork."
+    btnHome="Get Services"
+    imgHome={moon}/>
     </>
   )
 }
