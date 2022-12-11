@@ -1,9 +1,10 @@
-import dikshaa from "../../../images/dikshaa.jpg";
+
 
 import React from 'react';
 import CommonPages from "../commonPage/CommonPages";
 import { DealData } from "../../constants/Data";
 import HomeCard from "./HomeCard";
+import hyy from "../../../images/hyy.webp";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
     <CommonPages title ="we are here for some services." 
     description="Welcome to the site"
     btnHome="Get Services"
-    imgHome={dikshaa} link="/services"/>
+    imgHome={hyy} link="/services"/>
     <div className="my-0">
       <h2 className="text-center">Best Deal Of The Day</h2>
 
@@ -19,7 +20,7 @@ const Home = () => {
     <div className="container-fluid mb-5">
         <div className="row">
           <div  className="col-10 mx-auto">
-            <div className="row">
+            <div className="row gy-4">
               {DealData.map((curValue)=>{
                 return(<HomeCard
                 key={curValue.id}

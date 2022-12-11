@@ -56,10 +56,10 @@ const Header = () => {
             
           </Nav>
           <Form className="d-flex">
-           
+           <NavLink to ="/register">
             
                   <Button variant="outline-primary">Login</Button>{' '}
-
+                  </NavLink>
           </Form>
         </Navbar.Collapse>
       </Container>

@@ -1,5 +1,5 @@
 import React from 'react'
-import dikshaa from "../../../images/dikshaa.jpg";
+import hyy from "../../../images/hyy.webp";
 import Button from 'react-bootstrap/esm/Button';
 import {NavLink} from 'react-router-dom';
 
@@ -16,7 +16,7 @@ const commonPages = (props) => {
       <NavLink to ={props.link}><Button variant="outline-primary">{props.btnHome}</Button>{' '}</NavLink>
     </div>
     <div class="col">
-    <img style={{width:"100%",height:"70%"}}src={dikshaa} alt="img"/>
+    <img style={{width:"100%",height:"70%"}}src={hyy} alt="img"/>
     </div>
   </div>
 </div>
